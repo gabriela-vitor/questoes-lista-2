@@ -106,6 +106,42 @@ if( i = tentativas){
 }
 */
 
+/*fizzbuzz
+
+#include <stdio.h>
+
+int main() {
+    int num;
+
+    // Solicitar ao usuário que insira um número inteiro positivo N
+    printf("Digite um número inteiro positivo N:\n ");
+    scanf("%d", &num);
+
+    // Usar um loop para contar de 1 a N
+    for (int i = 1; i <= num; i++) {
+        // Verificar as regras do jogo
+        if (i % 3 == 0 && i % 5 == 0) {
+            // Divisível por 3 e 5
+            printf("FizzBuzz\n ");
+        } else if (i % 3 == 0) {
+            // Divisível por 3
+            printf("Fizz\n ");
+        } else if (i % 5 == 0) {
+            // Divisível por 5
+            printf("Buzz\n ");
+        } else {
+            // Não divisível por 3 ou 5
+            printf("%d\n ", i);
+        }
+    }
+
+    
+
+   
+}
+
+*/
+
 
 
 
