@@ -113,11 +113,11 @@ if( i = tentativas){
 int main() {
     int num;
 
-    // Solicitar ao usuário que insira um número inteiro positivo N
-    printf("Digite um número inteiro positivo N:\n ");
+    // Solicitar ao usuário que insira um número inteiro positivo 
+    printf("Digite um número inteiro positivo :\n ");
     scanf("%d", &num);
 
-    // Usar um loop para contar de 1 a N
+    // Usar um loop para contar de 1 a num
     for (int i = 1; i <= num; i++) {
         // Verificar as regras do jogo
         if (i % 3 == 0 && i % 5 == 0) {
@@ -140,6 +140,52 @@ int main() {
    
 }
 
+
+
+*/
+
+/* ESTACOES DO ANO
+
+#include <stdio.h>
+
+int main() {
+     
+     int mes;
+     
+     printf("digite o numero do mes (1 á 12)\n");
+     scanf("%d", &mes);
+     
+     switch(mes){
+         
+        
+         case 4:
+         case 5: 
+         case 6: 
+         printf("OUTONO!!");
+         break;
+         
+         case 7:
+         case 8:
+         case 9:
+         printf("INVERNO!!");
+         break;
+         
+         case 10:
+         case 11: 
+         case 12: 
+         printf("PRIMAVERA!!");
+         break;
+         
+         case 1: 
+         case 2:
+         case 3:
+         printf("VERAO!!");
+         
+         
+         
+         
+     }
+}
 */
 
 
